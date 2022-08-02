@@ -5,6 +5,7 @@ import './style.css';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
+import Message from './components/Message';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <Greet name="Noor Fateh" location="Canada" />
       <Welcome person="friends" />
       <Hello greet="Namaste" />
+      <Message />
     </div>
   );
 }
