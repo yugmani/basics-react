@@ -9,9 +9,12 @@ import Hello from './components/Hello';
 export default function App() {
   return (
     <div className="App">
-      <Greet />
-      <Welcome />
-      <Hello />
+      <Greet name="Yoog" location="Los Angeles">
+        <p>I love traveling</p>
+      </Greet>
+      <Greet name="Noor Fateh" location="Canada" />
+      <Welcome person="friends" />
+      <Hello greet="Namaste" />
     </div>
   );
 }
