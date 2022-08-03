@@ -41,3 +41,9 @@ button {
   padding: 0 5px;
   margin: 15px;
 }
+
+.event-bind {
+  color: yellow;
+  font-weight: 500;
+  font-size: 25px;
+}
