@@ -1,12 +1,11 @@
 import React from 'react';
 
-const Click = () => {
-  
+const FunctionClick = () => {
   //event handler
   const clickHandler = () => {
-    console.log('Button clicked');
+    console.log('Button is clicked');
   };
-  
+
   return (
     <div>
       <button onClick={clickHandler}>Click</button>
@@ -14,4 +13,4 @@ const Click = () => {
   );
 };
 
-export default Click;
+export default FunctionClick;
