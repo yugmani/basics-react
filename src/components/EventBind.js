@@ -8,7 +8,7 @@ class EventBind extends Component {
       message: 'Hi! How are you?',
     };
 
-    //official and the best binding method
+    //official and recommended binding method
     // this.clickHandler = this.clickHandler.bind(this);
   }
 
