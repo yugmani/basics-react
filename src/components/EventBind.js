@@ -8,17 +8,26 @@ class EventBind extends Component {
       message: 'Hi! How are you?',
     };
 
-    //official binding method
-    this.clickHandler = this.clickHandler.bind(this);
+    //official and the best binding method
+    // this.clickHandler = this.clickHandler.bind(this);
   }
 
-  clickHandler() {
+  // clickHandler() {
+  //   this.setState({
+  //     message: 'Goodbye!',
+  //     event: 'event-bind',
+  //   });
+  //   // console.log(this);
+  // }
+
+  //Automatic binding: class property as arrow function method
+  clickHandler = () => {
     this.setState({
       message: 'Goodbye!',
       event: 'event-bind',
     });
     // console.log(this);
-  }
+  };
 
   render() {
     return (
@@ -31,7 +40,7 @@ class EventBind extends Component {
         {/* binding with arrow function body */}
         {/* <button onClick={() => this.clickHandler()}>Event Click</button> */}
 
-        {/* Official binding method */}
+        {/* Official the binding method */}
         <button onClick={this.clickHandler}>Event Click</button>
       </div>
     );
