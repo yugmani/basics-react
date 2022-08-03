@@ -19,7 +19,7 @@ class Counter extends Component {
           console.log('cb: ', this.state.count);
         }
       );
-    }
+    } else return;
   }
 
   decrement() {
@@ -47,7 +47,9 @@ class Counter extends Component {
   render() {
     return (
       <div>
-        <div>Count {this.state.count}</div>
+        <div>
+          Count: <span class="count">{this.state.count}</span>
+        </div>
         <button onClick={() => this.increment()}>Increment</button>
         <button onClick={() => this.decrement()}>Decrement</button>
         <button onClick={() => this.incrementFive()}> + Five</button>
