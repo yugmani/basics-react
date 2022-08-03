@@ -6,6 +6,7 @@ import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
+import Counter from './components/Counter';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Welcome person="friends" />
       <Hello greet="Namaste" />
       <Message />
+      <Counter />
     </div>
   );
 }

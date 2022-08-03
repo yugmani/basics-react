@@ -21,3 +21,16 @@ p {
 .red {
   color: red;
 }
+
+.welcome-section {
+  margin: 15px;
+  background-color: lightgray;
+  color: black;
+}
+
+button {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+}

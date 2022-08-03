@@ -4,7 +4,7 @@ class Message extends Component {
   constructor() {
     super();
     this.state = {
-      message: 'Welcome Vistior',
+      message: 'Welcome Vistor',
     };
   }
 
@@ -17,7 +17,7 @@ class Message extends Component {
 
   render() {
     return (
-      <div>
+      <div className="welcome-section">
         <h1 className={this.state.text}>{this.state.message}</h1>
         <button onClick={() => this.changeMessage()}>Subscribe</button>
       </div>
