@@ -15,7 +15,7 @@ export default function App() {
         <p>I love traveling</p>
       </Greet>
       <Greet name="Noor Fateh" location="Canada" />
-      <Welcome person="friends" />
+      <Welcome person="friends" group="MERN" />
       <Hello greet="Namaste" />
       <Message />
       <Counter />
