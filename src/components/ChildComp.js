@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Child() {
+const ChildComp = () => {
   return (
     <div>
       <button>Greet Parent</button>
     </div>
   );
-}
+};
 
-export default Child;
+export default ChildComp;
